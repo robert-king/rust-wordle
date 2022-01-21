@@ -45,7 +45,7 @@ fn main() {
     println!("game over, the answer was {}", solution);
 }
 
-fn get_hint(guess: &String, sol: &String) -> String {
+fn get_hint(guess: &str, sol: &str) -> String {
     let green_square = '🟩';
     let black_square = '⬛';
     let yellow_square = '🟨';
