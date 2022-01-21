@@ -20,7 +20,7 @@ fn print_with_tabs(s: &str) {
 }
 
 fn main() {
-    println!("Welcome to Worlde");
+    println!("Welcome to Wordle");
     println!("Please visit https://www.powerlanguage.co.uk/wordle/ to play officially");
     let words = word_list::WordList::new();
     let solution = words.get_random_common_word();
